@@ -2,7 +2,7 @@
 		$errors = "";
 
 		//connect to the database
-		$db = mysqli_connect('localhost','root','','todo');
+		$db = mysqli_connect('containers-us-west-17.railway.app','root','','railway');
 
 		if(isset($_POST['Submit'])){
 			$task = $_POST['task'];
